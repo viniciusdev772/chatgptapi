@@ -63,7 +63,6 @@ const ipFixo = "192.140.32.89";
 // Crie uma instância do agente HTTPS com o IP fixo
 const agent = new https.Agent({
   rejectUnauthorized: false,
-  localAddress: ipFixo,
 });
 
 // Setup axios instance for API requests with predefined configurations
