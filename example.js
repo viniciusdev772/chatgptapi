@@ -2,10 +2,10 @@ const axios = require("axios");
 
 const API_URL = "http://localhost:3040/v1/chat/completions";
 
-const prompt = "gere um código php de exemplo";
+const prompt = "qual modelo gpt está em uso ?";
 
 const data = {
-  model: "gpt-3.5-turbo",
+  model: "gpt-4-turbo",
   messages: [{ role: "user", content: prompt }],
   temperature: 0.7,
 };
